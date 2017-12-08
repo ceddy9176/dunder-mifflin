@@ -3,13 +3,13 @@
 ### by Connor Miller
 
 ## Description
-
+  This project uses media queries and sass to create a responsive webpage for mobile and desktop views
 
 
 ## Instructions
 
 * Clone the repository to your Desktop.
-* Open the html file in your preferred browser.
+* Open the html file in chrome.
 
 ## Specs
 | Term  | Description | Implementation |
@@ -24,7 +24,8 @@
 |timeline ul (component)| allows for boilerplate formatting on 'timeline' (ul class) structure| we will set certain properties to apply to our ul w/ timeline class, ie, block structure and font sizing, circular border around images |
 | navbar links (component)| allows for boilerplate formatting on navbar menu items  | we will set certain properties on navbar menu items (li's) to show upon larger media screenwidth and collape into burger on smaller media screenwidths |
 
-
+## changed approach
+  Since I knew what content I was already putting in the website I knew I did not have to spending any time fiddling with that so instead I researched on side bars with bootstrap and how to implement it smoothly while using media queries. 
 
 ## tech
 
@@ -32,3 +33,5 @@
 * CSS
 * Sass
 * Bootstrap
+
+## License

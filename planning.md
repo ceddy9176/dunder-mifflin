@@ -7,7 +7,7 @@
 |partials | allows you to modularize your stylesheet | we will follow the 7-1 architecture and export like-elements of our stylesheet to partials|
 |import | allows you to keep your stylesheet DRY by connecting partials to your main stylesheet | we will keep stylesheet DRY and import aspects according to partials file-structure |
 |extend| keeps stylesheet DRY by sharing properties of selectors |  |
-|media queries| allows for DRY incorporation of media queries nested within selector properties | approx. 3 elements have media query-esque functionality, we will apply their media-query changes to the selectors |
+|media queries| allows for DRY incorporation of media queries nested within selector properties | many elements have media query functionality, we will apply their media-query changes to the selectors |
 |card (component)| allows for boilerplate formatting on card elements | we will set certain properties to apply to all cards, ie padding/margin, content structure |
 |timeline ul (component)| allows for boilerplate formatting on 'timeline' (ul class) structure| we will set certain properties to apply to our ul w/ timeline class, ie, block structure and font sizing, circular border around images |
 | navbar links (component)| allows for boilerplate formatting on navbar menu items  | we will set certain properties on navbar menu items (li's) to show upon larger media screenwidth and collape into burger on smaller media screenwidths |
