@@ -7,154 +7,168 @@
     <link href="css/master.css" rel="stylesheet">
     <title>Dunder Mifflin</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">
-        <div class="container">
-          <a class="navbar-brand js-scroll-trigger" href="#page-top">Dunder Mifflin</a>
-          <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu
-            <i class="fa fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav text-uppercase ml-auto">
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger active" href="#services">link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#portfolio">link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#about">link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#team">link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#contact">link</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    <div class="masthead">
-      <div class="masthead-section-a">
-        <h3>Sign up for our mailing list</h3>
-        <button type="button" name="button">Button</button>
-      </div>
-    </div>
-
-    <div class="container-1">
-      <div class="container-1-heading">
-        <h1>We are the Dunder Mifflin Paper Company. We specialize in the highest of paper quality.</h1>
-      </div>
-      <div class="card-field">
-        <div class="container-1-card">
-          <h4>Our Paper</h4>
-          <p>White, Colored, Sheen, All Kinds, All Day, Every Day, Paper</p>
-        </div>
-        <div class="container-1-card">
-          <h4>Our Style</h4>
-          <p>We're open, ready, available, 23/6 almost most days</p>
-        </div>
-        <div class="container-1-card">
-          <h4>Our Promise</h4>
-          <p>We're more than just paper, we are lots of paper and friendship in the form of paper</p>
-        </div>
-      </div>
-    </div>
-    <div class="container-2">
-      <div class="inner">
-        <div class="row">
-          <div class="col-md-12 text center">
-            <h2>About us</h2>
-            <br>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <ul class="timeline">
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/michaelscott.png" alt="image 1">
+  <body class="wrapper">
+    <nav id="sidebar">
+                <!-- Sidebar Header -->
+                <div class="sidebar-header">
+                    <h3>Collapsible Sidebar</div>
                 </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                      <h4>Michael Gary Scott</h4>
-                      <h5>Regional Manager</h5>
-                    </div>
-                    <div class="timeline-body">
-                      <p>"That's what she said!"
-                      <br>
-                      likes the music of Billy Joel, the movies Mean Girls, Million Dollar Baby, Die Hard, What a girl wants, and television series such as ALF, Entourage, The L Word and Queer as Folk.</p>
-                    </div>
+
+                <!-- Sidebar Links -->
+                <ul class="list-unstyled components">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><!-- Link with dropdown items -->
+                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Pages</a>
+                        <ul class="collapse list-unstyled" id="homeSubmenu">
+                            <li><a href="#">Page</a></li>
+                            <li><a href="#">Page</a></li>
+                            <li><a href="#">Page</a></li>
+                        </ul>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div id="content">
+              <div class="masthead">
+                <div class="masthead-section-a">
+                  <h3>Sign up for our mailing list</h3>
+                  <button type="button" name="button">Button</button>
+                </div>
+              </div>
+
+              <div class="container-1">
+                <div class="container-1-heading">
+                  <h1>We are the Dunder Mifflin Paper Company. We specialize in the highest of paper quality.</h1>
+                </div>
+                <div class="card-field">
+                  <div class="container-1-card">
+                    <h4>Our Paper</h4>
+                    <p>White, Colored, Sheen, All Kinds, All Day, Every Day, Paper</p>
                   </div>
-                </li>
-                <li class="timeline-inverted">
-                  <div class="timeline-image">
-                    <img class="rounded-circle img-fluid" src="img/dwight_schrute.jpg" alt="image-2">
+                  <div class="container-1-card">
+                    <h4>Our Style</h4>
+                    <p>We're open, ready, available, 23/6 almost most days</p>
                   </div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h4>Dwight Kurt Schrute III</h4>
-                      <h5>"Assistant Regional Manager"</h5>
+                  <div class="container-1-card">
+                    <h4>Our Promise</h4>
+                    <p>We're more than just paper, we are lots of paper and friendship in the form of paper</p>
+                  </div>
+                </div>
+              </div>
+              <div class="container-2">
+                <div class="inner">
+                  <section class="bg-light" id="portfolio">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-12 text-center">
+                          <h2 class="section-heading text-uppercase">Lorem</h2>
+                          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                              </div>
+                            </div>
+                            <img class="img-fluid" src="http://via.placeholder.com/400x300" alt="">
+                          </a>
+                          <div class="portfolio-caption">
+                            <h4>Lorem</h4>
+                            <p class="text-muted">Lorem</p>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                              </div>
+                            </div>
+                            <img class="img-fluid" src="http://via.placeholder.com/400x300" alt="">
+                          </a>
+                          <div class="portfolio-caption">
+                            <h4>Lorem</h4>
+                            <p class="text-muted">Lorem</p>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                              </div>
+                            </div>
+                            <img class="img-fluid" src="http://via.placeholder.com/400x300" alt="">
+                          </a>
+                          <div class="portfolio-caption">
+                            <h4>Lorem</h4>
+                            <p class="text-muted">Lorem</p>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                              </div>
+                            </div>
+                            <img class="img-fluid" src="http://via.placeholder.com/400x300" alt="">
+                          </a>
+                          <div class="portfolio-caption">
+                            <h4>Lorem</h4>
+                            <p class="text-muted">Lorem</p>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                              </div>
+                            </div>
+                            <img class="img-fluid" src="http://via.placeholder.com/400x300" alt="">
+                          </a>
+                          <div class="portfolio-caption">
+                            <h4>Lorem</h4>
+                            <p class="text-muted">Lorem</p>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                              </div>
+                            </div>
+                            <img class="img-fluid" src="http://via.placeholder.com/400x300" alt="">
+                          </a>
+                          <div class="portfolio-caption">
+                            <h4>Lorem</h4>
+                            <p class="text-muted">Lorem</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div class="timeline-body">
-                      <p>Dwight is trained in the art of surveillance, and is a former Lackawanna County volunteer sheriff's deputy.He has a purple belt in Goju-Ryu karate, and is the senpai at his dojo. He maintained a hidden arsenal of weapons around the office, including pepper spray, nunchucks, throwing stars, a stun gun, a boomerang, handcuffs, a nightstick, a pair of brass knuckles and a Chinese sword</p>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="timeline-image">
-                    <img class="rounded-circle img-fluid" src="img/jim.jpg" alt="image-3">
-                  </div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h4>Jim Halpert</h4>
-                      <h5>Sales Representative</h5>
-                    </div>
-                    <div class="timeline-body">
-                      <p>Jim began working at Dunder Mifflin between 1998 and 1999. Jim says that he loves when Michael says, "Wazzup!" crazily after seven years, and that on his first day at work Michael played an orientation video which parodied The Blair Witch Project.</p>
-                    </div>
-                  </div>
-                </li>
-                <li class="timeline-inverted">
-                  <div class="timeline-image">
-                    <img class="rounded-circle img-fluid" src="img/kevin_malone.gif" alt="image-4">
-                  </div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h4>Kevin Malone</h4>
-                      <h5>Accountant</h5>
-                    </div>
-                    <div class="timeline-body">
-                      <p>"I have little patience for stupidity"
-                      <br>
-                       He is very concerned about the e-mail surveillance uncovering the contents of his hard drive.When Nick, the I.T. guy for Sabre has to examine everyone's computers, this prompts Kevin to sprint for his computer in front of everyone. But Nick confirms that he already went through Kevin's computer, causing Kevin to say that he just likes running
-                    </p>
-                    </div>
-                  </div>
-                </li>
-                <li class="timeline-inverted">
-                  <div class="timeline-image">
-                  </div>
-                </li>
-              </ul>
-            </div>
+                  </section>
+                </div>
+              </div>
+              <div class="footer">
+                <ul>
+                  <li>Dunder Mifflin (TM) 2017</li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Shop</a></li>
+                  <li><a href="#">About Paper</a></li>
+                </ul>
+              </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer">
-      <ul>
-        <li>Dunder Mifflin (TM) 2017</li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">About Paper</a></li>
-      </ul>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <scrip src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
 
   </body>
