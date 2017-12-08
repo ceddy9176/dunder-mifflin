@@ -2,7 +2,7 @@
   border: none; }
 
 nav {
-  background-color: black; }
+  background-color: #10345e; }
 
 .columns {
   min-height: 100px; }
@@ -53,7 +53,8 @@ nav {
       margin-top: 20%;
       margin-bottom: 100px; } }
   .masthead-section-a button {
-    background-color: yellow;
+    background-color: #4b89ba;
+    color: white;
     height: 2em; }
 
 .container-1, .container-2 {
@@ -99,7 +100,7 @@ nav {
   left: 0;
   height: 100vh;
   z-index: 999;
-  background: #7386D5;
+  background: #10345e;
   color: #fff;
   transition: all 0.3s; }
 
@@ -108,7 +109,7 @@ nav {
 
 #sidebar .sidebar-header {
   padding: 20px;
-  background: #6d7fcc; }
+  background: #0b2442; }
 
 #sidebar ul.components {
   padding: 20px 0;
@@ -118,26 +119,30 @@ nav {
   color: #fff;
   padding: 10px; }
 
+#sidebar a {
+  color: #fff; }
+
 #sidebar ul li a {
   padding: 10px;
   font-size: 1.1em;
   display: block; }
 
 #sidebar ul li a:hover {
-  color: #7386D5;
-  background: #fff; }
+  color: #fff;
+  background: #1e5084; }
 
 #sidebar ul li.active > a {
   color: #fff;
-  background: #6d7fcc; }
+  background: #1e5084; }
 
 a[data-toggle="collapse"] {
-  position: relative; }
+  position: relative;
+  color: white; }
 
 ul ul a {
   font-size: 0.9em !important;
   padding-left: 30px !important;
-  background: #6d7fcc; }
+  background: #0b2442; }
 
 a.download {
   background: #fff;
@@ -191,7 +196,7 @@ a.article, a.article:hover {
       height: 100%;
       transition: all ease 0.5s;
       opacity: 0;
-      background: rgba(254, 209, 54, 0.9); }
+      background: rgba(15, 52, 93, 0.66); }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
         opacity: 1; }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -276,7 +281,7 @@ a.article, a.article:hover {
 
 .footer {
   width: 100%;
-  height: 5vh;
+  height: 7vh;
   padding-top: 10px;
   background: slategray; }
   .footer a {
