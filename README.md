@@ -25,8 +25,12 @@
 | navbar links (component)| allows for boilerplate formatting on navbar menu items  | we will set certain properties on navbar menu items (li's) to show upon larger media screenwidth and collape into burger on smaller media screenwidths |
 
 ## changed approach
-  Since I knew what content I was already putting in the website I knew I did not have to spending any time fiddling with that so instead I researched on side bars with bootstrap and how to implement it smoothly while using media queries. 
+  Since I knew what content I was already putting in the website I knew I did not have to spending any time fiddling with that so instead I researched on side bars with bootstrap and how to implement it smoothly while using media queries.
 
+## support & contact me
+
+   Connect with me on GitHub @ceddy9176 with issues or inquiries about this code. you can also email me at @ ceddy9176@gmail.com for any personal questions
+   
 ## tech
 
 * Html
@@ -35,3 +39,7 @@
 * Bootstrap
 
 ## License
+
+Copyright (C) Connor Miller
+
+Open source. Feel free to pull, copy, edit, etc.
