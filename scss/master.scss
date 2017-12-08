@@ -25,8 +25,6 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   background-position-y: 0px;
-  width: 100%;
-  margin-top: 54px;
   border: 1px solid transparent;
   @media screen and (max-width: $break-medium) {
     background-size: 40em;
@@ -164,7 +162,7 @@ nav {
     background: #fff;
 }
 
-#sidebar ul li.active > a, a[aria-expanded="true"] {
+#sidebar ul li.active > a, {
     color: #fff;
     background: #6d7fcc;
 }
@@ -201,7 +199,8 @@ a.article, a.article:hover {
   width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
+
   #sidebar {
       margin-left: -250px;
   }
@@ -218,7 +217,11 @@ a.article, a.article:hover {
       display: none;
   }
 }
-
+ @media (min-width: 1000px) {
+   #mainNav {
+     display: none;
+   }
+ }
 
 #portfolio {
   .portfolio-item {
