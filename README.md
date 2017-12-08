@@ -8,7 +8,7 @@
 
 ## Instructions
 
-* Clone the repository to your Desktop.
+* Clone the repository to your Desktop or click https://ceddy9176.github.io/dunder-mifflin
 * Open the html file in chrome.
 
 ## Specs
